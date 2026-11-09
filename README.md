@@ -26,7 +26,7 @@ screenshots/                    -- package run results
 5. `DFT_LoadFactSales`
 
 ## How to run
-1. Run `01_create_source_db.sql`, then insert your sample data.
+1. Run `01_create_source_db.sql` (creates the source tables and inserts the sample data).
 2. Run `02_create_data_warehouse.sql`.
 3. Open `MiniStoreETL.slnx` in Visual Studio and change the connection managers (`MiniStoreSource`, `MiniStoreDW`) to your own server name.
 4. Run the package.
